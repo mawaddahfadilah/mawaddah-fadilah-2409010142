@@ -5,13 +5,13 @@ Tulisan dari baris 1, jangan copy-paste!
 
 /* CSS VARIABLES - Palet Warna utama USU */
 :root {
-  --hijau-tua: #006b3c;
-  --hijau-muda: #009a55;
-  --hijau-terang: #a7f3d0;
-  --putih: #ffffff;
-  --abu-gelap: #1e293b;
-  --abu-muda: #64748b;
-  --bg-section: #f8fafc;
+  --biru-terang: #3242ea;
+  --biru-terang: #3242ea;
+  --biru-terang: #3242ea;
+  --putih: #4371f0;
+  ---biru-terang: #3242ea;
+  --biru-terang: #3242ea;
+  --biru-terang: #3242ea;
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -134,9 +134,9 @@ NAVBAR
   background-color: var(--hijau-tua);
   background-image: linear-gradient(
     135deg,
-    rgba(0, 107, 60, 0.95) 0%,
-    rgba(0, 154, 85, 0.85) 50%,
-    rgba(0, 107, 60, 0.95) 100%
+    rgba(11, 13, 144, 0.85) 50%,
+    rgba(11, 13, 144, 0.85) 50%,
+    rgba(11, 13, 144, 0.85) 50%
   );
   display: flex;
   align-items: center;
@@ -429,7 +429,7 @@ NAVBAR
 }
 
 .sambutan-label {
-  color: var(--hijau-muda);
+  color: var(--biru-terang);
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -439,7 +439,7 @@ NAVBAR
 .sambutan-nama {
   font-size: 24px;
   font-weight: 800;
-  color: var(--abu-gelap);
+  color: var(--hitam);
   margin-bottom: 20px;
 }
 
@@ -528,7 +528,7 @@ NAVBAR
    ============================================= */
 
 body.dark-mode {
-  background-color: #0f172a;
+  background-color: #2046a1;
   color: #e2e8f0;
 }
 
@@ -554,7 +554,7 @@ body.dark-mode #berita {
    ============================================= */
 
 #navbar.navbar-scroll {
-  background-color: rgba(0, 60, 30, 0.98);
+  background-color: rgba(24, 95, 227, 0.966);
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
   padding: 0;
 }
